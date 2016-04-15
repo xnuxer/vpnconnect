@@ -1,0 +1,11 @@
+# This VPNConnect.config file
+# is the client side counterpart
+# of xinetd-server-config
+
+dev tun
+ifconfig 10.4.0.1 10.4.0.2
+remote my-server
+port 1194
+user nobody
+secret /root/vpnconnect/key
+inactive 600

@@ -1,0 +1,2 @@
+#define CONFIGURE_GIT_REVISION "HEAD-a6eda60c1e79b5c9"
+#define CONFIGURE_GIT_FLAGS "+*"

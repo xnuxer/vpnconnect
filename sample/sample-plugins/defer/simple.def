@@ -1,0 +1,6 @@
+LIBRARY   VPNConnect.PLUGIN_SAMPLE
+DESCRIPTION "Sample VPNConnect.plug-in module."
+EXPORTS
+   vpnconnect_plugin_open_v1   @1
+   vpnconnect_plugin_func_v1   @2
+   vpnconnect_plugin_close_v1  @3
